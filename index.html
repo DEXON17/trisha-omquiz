@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Management Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Management Quiz</h1>
+        <form id="quizForm">
+            <div class="question" id="question1">
+                <p>1. Which level of management is responsible for setting goals, vision, and mission for the company?</p>
+                <label><input type="radio" name="q1" value="A"> A) Lower-Level Management</label>
+                <label><input type="radio" name="q1" value="B"> B) Middle-Level Management</label>
+                <label><input type="radio" name="q1" value="C"> C) Upper-Level Management</label>
+                <label><input type="radio" name="q1" value="D"> D) Frontline Managers</label>
+            </div>
+            
+            <div class="question" id="question2">
+                <p>2. What is the primary responsibility of Middle-Level Management?</p>
+                <label><input type="radio" name="q2" value="A"> A) Set daily tasks for staff</label>
+                <label><input type="radio" name="q2" value="B"> B) Implement the plans of Top Management</label>
+                <label><input type="radio" name="q2" value="C"> C) Control other managers</label>
+                <label><input type="radio" name="q2" value="D"> D) Oversee the daily operation of specific units</label>
+            </div>
+            
+            <div class="question" id="question3">
+                <p>3. Which managerial role involves performing social, legal, and ceremonial duties?</p>
+                <label><input type="radio" name="q3" value="A"> A) Leader</label>
+                <label><input type="radio" name="q3" value="B"> B) Figurehead</label>
+                <label><input type="radio" name="q3" value="C"> C) Liaison</label>
+                <label><input type="radio" name="q3" value="D"> D) Spokesperson</label>
+            </div>
+            
+            <div class="question" id="question4">
+                <p>4. Which type of manager threatens employees to work toward a goal?</p>
+                <label><input type="radio" name="q4" value="A"> A) Problem-Solving Manager</label>
+                <label><input type="radio" name="q4" value="B"> B) Pitchfork Manager</label>
+                <label><input type="radio" name="q4" value="C"> C) Pontificating Manager</label>
+                <label><input type="radio" name="q4" value="D"> D) Perfect Manager</label>
+            </div>
+            
+            <div class="question" id="question5">
+                <p>5. Which of the following is NOT a role of Lower-Level Management?</p>
+                <label><input type="radio" name="q5" value="A"> A) Train staff</label>
+                <label><input type="radio" name="q5" value="B"> B) Supervise specific units</label>
+                <label><input type="radio" name="q5" value="C"> C) Set daily tasks for staff</label>
+                <label><input type="radio" name="q5" value="D"> D) Handle routine administrative tasks</label>
+            </div>
+            
+            <div class="question" id="question6">
+                <p>6. Which management skill is described as the capacity to interact, motivate, and lead subordinates?</p>
+                <label><input type="radio" name="q6" value="A"> A) Technical Skills</label>
+                <label><input type="radio" name="q6" value="B"> B) Human Skills</label>
+                <label><input type="radio" name="q6" value="C"> C) Conceptual Skills</label>
+                <label><input type="radio" name="q6" value="D"> D) Analytical Skills</label>
+            </div>
+            
+            <div class="question" id="question7">
+                <p>7. Which managerial role involves evaluating major decisions related to resource allocation?</p>
+                <label><input type="radio" name="q7" value="A"> A) Monitor</label>
+                <label><input type="radio" name="q7" value="B"> B) Disseminator</label>
+                <label><input type="radio" name="q7" value="C"> C) Entrepreneur</label>
+                <label><input type="radio" name="q7" value="D"> D) Resource Allocator</label>
+            </div>
+            
+            <div class="question" id="question8">
+                <p>8. What is the main focus of a Pontificating Manager?</p>
+                <label><input type="radio" name="q8" value="A"> A) Threatening employees to work toward goals</label>
+                <label><input type="radio" name="q8" value="B"> B) Neither following any strategy nor preparing for any task</label>
+                <label><input type="radio" name="q8" value="C"> C) Providing solutions to company problems</label>
+                <label><input type="radio" name="q8" value="D"> D) Being open to change and personal growth</label>
+            </div>
+            
+            <div class="question" id="question9">
+                <p>9. Which managerial role involves communicating information to groups outside the company?</p>
+                <label><input type="radio" name="q9" value="A"> A) Leader</label>
+                <label><input type="radio" name="q9" value="B"> B) Liaison</label>
+                <label><input type="radio" name="q9" value="C"> C) Spokesperson</label>
+                <label><input type="radio" name="q9" value="D"> D) Negotiator</label>
+            </div>
+            
+            <div class="question" id="question10">
+                <p>10. What is the primary function of a Disturbance Handler?</p>
+                <label><input type="radio" name="q10" value="A"> A) Build and maintain relationships with stakeholders</label>
+                <label><input type="radio" name="q10" value="B"> B) Evaluate and reallocate resources in response to disturbances</label>
+                <label><input type="radio" name="q10" value="C"> C) Supervise daily operations of their area</label>
+                <label><input type="radio" name="q10" value="D"> D) Handle routine administrative tasks</label>
+            </div>
+
+            <button type="button" onclick="submitQuiz()">Submit</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
